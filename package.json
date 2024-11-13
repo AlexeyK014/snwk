@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://AlexeyK014.github.io/snwk",
+  "homepage": "https://AlexeyK014.github.io/login",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
