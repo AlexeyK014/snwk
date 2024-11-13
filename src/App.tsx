@@ -54,10 +54,10 @@ export const AppFunc: React.FC = (props) => {
     return (
         <Layout className='page'>
             {<AppHeader />}
-            {/* {userId && <AppHeader />} */}
+            {userId && <AppHeader />}
             <Layout className='page2' >
                 {
-                // userId &&
+                userId &&
                     <Sider width={200} className='sider-page' style={{ background: '#fbeede' }}>
                         <Menu
                             className='sider'
@@ -68,8 +68,8 @@ export const AppFunc: React.FC = (props) => {
                         >
 
                             <Menu.Item key="1" className='itemMenu'>
+                                {/* <Link to={`/profile/26225`}>Мой профайл</Link> */}
                                 <Link to={`/profile/${userId}`}>Мой профайл</Link>
-                                {/* <Link to={`/profile/${userId}`}>Мой профайл</Link> */}
                             </Menu.Item>
                             <Menu.Item key="2">
                                 <Link to={"/users"}>Пользователи</Link>
